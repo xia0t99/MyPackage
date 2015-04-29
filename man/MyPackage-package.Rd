@@ -6,30 +6,29 @@
 \packageTitle{MyPackage}
 }
 \description{
-\packageDescription{MyPackage}
+This package is built by copying the sample code for package.skeleton() and then editing the help files
 }
 \details{
 
-The DESCRIPTION file:
-\packageDESCRIPTION{MyPackage}
-\packageIndices{MyPackage}
-~~ An overview of how to use the package, including the most important functions ~~
+\tabular{ll}{
+Package: \tab MyPackage\cr
+Type: \tab Package\cr
+Version: \tab 1.0\cr
+Date: \tab 2015-04-28\cr
+License: \tab MIT\cr
+LazyLoad: \tab yes\cr
+}
 }
 \author{
-\packageAuthor{MyPackage}
+Liew Kit Loong{MyPackage}
 
-Maintainer: \packageMaintainer{MyPackage}
+Maintainer: Liew Kit Loong(xia0t99@gmail.com){MyPackage}
 }
 \references{
-~~ Literature or other references for background information ~~
-}
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R ~~
-~~ documentation directory ~~
+ Package source is in the help file for package.skeleton}
 \keyword{ package }
-\seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
-}
+
 \examples{
-~~ simple examples of the most important functions ~~
+test <- square(x^2)
+test2 <- cube(y^2)
 }

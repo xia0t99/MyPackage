@@ -7,3 +7,4 @@ Author: Liew Kit Loong
 Maintainer: Liew Kit Loong <xia0t99@gmail.com>
 Description: This is a simple package
 License: MIT
+Lazyload: Yes
