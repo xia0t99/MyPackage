@@ -28,5 +28,6 @@ Maintainer: Liew Kit Loong <xia0t99@gmail.com>
 
 \examples{
 test <- square(x=2)
+test2 <- cube(y=2)
 
 }

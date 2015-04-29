@@ -1,23 +1,26 @@
 \name{square}
 \alias{square}
 
-\title{ Square Function}
+\title{ Square and Cube Function}
 
-\description{ The function adds two numbers}
+\description{ The function square and cube a number}
 
 \usage{
 square(x^2)
+cube(y^2)
 
 }
 
 \arguments{
   \item{x}{ The argument for square}
+   \item{y}{ The argument for cube}
+
 
 
 }
-\details{ No more details required. It adds two numbers}
+\details{ Square a number and cube a number}
 
-\value{ Returns a number that is the sum }
+\value{ It return a value multiple by 2 or a value multiple by 3 }
 
 \references{ package.Skeleton code}
 
@@ -27,8 +30,11 @@ square(x^2)
 
 \examples{
   x <- 2
+  y <- 2
   test <- square(x^2)
   print(test)
+  test2 <- cube(y^2)
+  print(test2)
 }
 
 \keyword{ arith }
